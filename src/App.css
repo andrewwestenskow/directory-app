@@ -1,33 +1,146 @@
+@import url('https://fonts.googleapis.com/css?family=Tauri');
+
+
+h2{
+  margin: 0;
+}
+
 .App {
-  text-align: center;
-}
-
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  /* text-align: center; */
+  background-color: black;
   display: flex;
   flex-direction: column;
   align-items: center;
+  height: 100vh;
+  font-family: Tauri, sans-serif;
+  position: relative;
+}
+
+
+/*DIVS*/
+
+.Header{
+  background-color: rgb(83, 140, 167);
+  height: 100px;
+  width: 100vw;
+}
+
+.Display{
+  width: 80%;
+  height: 80%;
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  background-color: white;
+}
+
+.Counter{
+  margin-right: 5%;
+  margin-top: 3%;
+  font-size: 2em;
+  font-weight: 700;
+}
+
+.FeaturedPerson{
+  /* border: 1px solid red; */
+  height: 100%;
+  width: 100%;
+  display:flex;
+  flex-direction: column;
+  justify-content: space-evenly
+}
+
+.FeaturedName{
+  /* border: 1px solid purple; */
+  text-decoration: underline blue;
+  font-weight: 700;
+  font-size: 3em;
+}
+
+.FeaturedInfo{
+  /* border: 1px solid orange; */
+}
+
+.Movies{
+  /* border: 1px solid pink; */
+}
+
+.Holder{
+  height: 80%;
+  width: 80%;
+  margin: 50px;
+  /* border: solid 1px blue; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.IndentItems{
+  margin-left: 5%;
+}
+
+.Navigator{
+  display:flex;
+  justify-content: space-between;
+  width: 80%;
+  margin-top: 15px;
+}
+
+.EditButtons{
+  width: 30%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.Form{
+  height: 50%;
+  width: 45%;
+  background-color: rgb(83, 140, 167);
+  position: absolute;
+  margin-top: 15%;
+  margin-left: -20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.EditForm{
+  background-color: rgb(245, 116, 116);
+}
+
+/*TEXT*/
+
+.Important{
+  font-size: 24px;
+  font-weight: 700;
+}
+
+/*OTHER THINGS*/
+
+.IndentList{
+  margin-left: 45px;
+}
+
+.NavButton{
   color: white;
+  background-color: transparent;
+  border: none;
+  font-size: 2em;
+  cursor: pointer;
 }
 
-.App-link {
-  color: #61dafb;
+.Home{
+  margin: 20px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.Editors{
+  height: 100%;
+  width: 80px;
+  background-color: rgb(83, 140, 167);
+  color: white;
+  font-weight: 700;
+  border-radius: 25px;
+  border: 0;
+  cursor: pointer;
 }
